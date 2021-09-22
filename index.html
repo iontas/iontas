@@ -6,32 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Unofficial | Iontas Website</title>
     <link href="./assets/css/bootstrap.css" rel="stylesheet">
+    <link href="./custom.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b1193525b5.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="bg-black">
     <!-- Logo -->
-<nav class="navbar navbar-expand-sm navbar-black bg-black">
+<nav class="navbar navbar-expand-sm py-3 navbar-black bg-black">
+    
     <a class="navbar-brand" href="#">
       <img src="./assets/logo.png" width="250" height="80" class="d-inline-block align-top" alt="">
     </a>
 
-    <ul class="navbar-nav navbar-right ml-auto">
-        <li class="nav-item">
-            <a class="nav-link" href="#">
-              About
-            </a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">
-              Contacts
-            </a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">
-              Solutions
-            </a>
-        </li>
-    </ul>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <ul class="navbar-nav ms-auto my-2 my-lg-0 " style="font-family: 'Oswald', sans-serif;">
+            <li class="nav-item"><a class="nav-link text-white" href="#about">ABOUT</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="#services">SERVICES</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="#portfolio">PORTFOLIO</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="#contact">CONTACT</a></li>
+        </ul>
+    </div>
   </nav>
+  <hr class="my-0 text-white">
+
+  <!--Fluid Jumbotron-->
+  <div class="jumbotron jumbotron-fluid" style="background-image: url('./assets/masthead.png'); height: 100vh; background-repeat: no-repeat;">
+    <div class="container text-white">
+        <div class="content-holder bg-black">
+      <h1 class="display-4" style="font-family: 'Oswald', sans-serif;">Data Driven Investment(s) and Business Solutions</h1>
+      <div class="container bg-dark">
+        <hr class="my-0 text-white">
+    </div>
+      <p class="lead" style="font-family: 'Roboto', sans-serif;">"From an information theoretic as well as statistical perspective, it seems
+        natural to say that the more data is
+        used in a learning task, the more
+        precise our result will be"</p>
+      </div>
+    </div>
+  </div>
 
   <!--Footer Grid-->
   <div class="bg-black">
@@ -41,51 +58,87 @@
             <img src="./assets/logo.png" width="250" height="80" class="d-inline-block align-top" alt="">
           </a>
       </div>
-      <div class="col-sm">
-        Business and Investments Redefined
+      <div class="col-sm" style="font-family: 'Oswald', sans-serif;">
+        <p class="mb-0">We Use Datascience to Solve</p><p>Your Business/Investment Problems<p>
       </div>
-      <div class="col-sm">
-        Data Driven Investments
+      <div class="col-sm" style="font-family: 'Oswald', sans-serif;">
+        Data Driven Investments/Solutions
       </div>
     </div>
   </div>
-
+<div class="container bg-dark">
+    <hr class="my-0 text-white">
+</div>
   <div class="bg-black">
     <div class="row text-white">
-      <div class="col-sm">
-        Address And Social-Icons
+      <div class="col-sm px-5">
+        <!--Address and Socials Footer-->
+        <div>
+            <a href="#" class="me-4 text-reset">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://twitter.com/iontas_software" class="me-4 text-reset">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/iontas" class="me-4 text-reset">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
       </div>
-      <div class="col-sm">
-        Schedule for a meeting
+      <div class="col-sm" style="font-family: 'Oswald', sans-serif;">
+        <ul class="mb-0">SCHEDULE FOR A MEETING:</ul>
+        <ul class="mb-0">+27 65 821 9715</ul>
+        <ul>+27 66 162 9172</ul>
       </div>
-      <div class="col-sm">
-        About Us
-        Sponsorships
-        Contact Us
-        Vacancies
-        Research
-        Solutions
+      <div class="col-sm" style="font-family: 'Oswald', sans-serif;">
+          <ul class="list-unstyled">
+        <li><a href="#!" class="text-white">About Us</a></li></li>
+        <li><a href="#!" class="text-white">Access Research</a></li>
+        <li><a href="#!" class="text-white">Sponsor Us</a></li>
+        <li><a href="#!" class="text-white">Contant Us</a></li>
+        </ul>
       </div>
+
+      <div class="col-sm" style="font-family: 'Oswald', sans-serif;">
+        <ul class="list-unstyled">
+      <li><a href="#!" class="text-white">Vacancies/Apprenticeship</a></li>
+      <li><a href="#!" class="text-white">Our Services</a></li>
+      <li><a href="#!" class="text-white">Software Solutions</a></li>
+      <li><a href="#!" class="text-white">Investor Relations</a></li>
+      </ul>
+    </div>
     </div>
   </div>
-
+  <div class="container bg-dark">
+    <hr class="my-0 text-white">
+</div>
   <!--Terms and conditions-->
-  <div class="bg-black">
+  <div class="bg-black px-4" style="font-family: 'Lato', sans-serif;">
     <div class="row text-white">
       <div class="col-sm">
-        copy-right
+        <b>|© 2021 Copyright - DDI Iontas |</b>
       </div>
-      
+
       <div class="col-sm">
-        About Us
-        Sponsorships
-        Contact Us
-        Vacancies
-        Research
-        Solutions
+            <div class="row">
+          
+            <div class="col-sm">
+                <b>TERMS AND CONDITIONS</b>
+              </div>
+              <div class="col-sm">
+                <b>PRIVACY POLICY</b>
+              </div>
+              <div class="col-sm">
+                <b>COOKIE POLICY</b>
+              </div>
+          </div>
       </div>
     </div>
   </div>
   
+  <script src="./assets/js/bootstrap.js"></script>
 </body>
 </html>

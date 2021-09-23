@@ -19,9 +19,12 @@
         z-index: 10;
         color: #fff;
         text-align: center;
-        top: 60%!important;
+        top: 70%!important;
         transform: translate(-50%, -50%);
         width: fit-content;
         padding: 50px
+      }
+      .footer-logo{
+        margin-top: 15%;
       }
   }

@@ -11,7 +11,7 @@
     <script src="https://kit.fontawesome.com/b1193525b5.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,7 +33,7 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
         <ul class="navbar-nav ms-auto my-2 my-lg-0 " style="font-family: 'Oswald', sans-serif;">
-            <li class="nav-item"><a class="nav-link text-white" href="./about.html">ABOUT US</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="#about">ABOUT US</a></li>
             <li class="nav-item"><a class="nav-link text-white" href="#services">SERVICES</a></li>
             <li class="nav-item"><a class="nav-link text-white" href="#portfolio">OUR WORK</a></li>
             <li class="nav-item"><a class="nav-link text-white" href="#contact">CONTACT US</a></li>
@@ -42,85 +42,60 @@
   </nav>
   <hr class="my-0 text-white">
 
-  <!--Fluid Jumbotron-->
-  <div class="jumbotron jumbotron-fluid" style="background-image: url('./assets/masthead.png'); height: 100vh; background-repeat: no-repeat;">
-    <div class="container text-white">
-        <div class="content-holder bg-black">
-      <h1 class="display-4" style="font-family: 'Oswald', sans-serif;">Data Driven Investment(s) and Business Solutions</h1>
-      <div class="container bg-dark">
-        <hr class="my-0 text-white">
-    </div>
-      <p class="lead" style="font-family: 'Roboto', sans-serif;">"From an information theoretic as well as statistical perspective, it seems
-        natural to say that the more data is
-        used in a learning task, the more
-        precise our result will be"</p>
-        <button class="btn btn-outline-light"><b>JOIN OUR PROSPECTIVE CLIENTS LIST </b> <i class="fas fa-arrow-right"></i></button>
-      </div>
-    </div>
-  </div>
-
-  <!--Grid For Introduction-->
-  <div class="container text-white mb-5">
-    <div class="row">
-      <div class="col">
-        <div class="container text-center">
-          <img src="./assets/logo.png" width="250" height="80" class="d-inline-block align-top " alt="">
-          <hr>
-        <h1 class="content" style="font-family: 'Oswald', sans-serif;">THE FIRST AND LAST RESORT TO BUSINESS SOLUTIONS</h1>
+ 
+  <ul class="list-group list-group-flush" style="font-family: 'Oswald', sans-serif;">
+    
+    <li class="list-group-item  bg-black text-white" data-toggle="collapse" href="#collapseGeneral" role="button" aria-expanded="false" aria-controls="collapseGeneral"><u>General</u> <i class="fas fa-plus"></i></li>
+    <!--Data Target-->
+    <div class="collapse" id="collapseGeneral">
+        <div class="container text-white">
+        <p>No Content Yet.</p>
         </div>
-        <p style="font-family: 'PT Sans Narrow', sans-serif; font-size: 18px;">Welcome to the world of Iontas data driven investments and business solutions where every day we solve business related problems using data and where financial data drives investment opportunities and decisions.</p>
-     <p style="font-family: 'PT Sans Narrow', sans-serif; font-size: 18px;" >A company that composes of a group of individuals with diverse skills and years of corporate experience from finance, computer science, marketing, sales , graphic design and architectural interior designs. Our service delivery since establishment has earned the trust of Iontas clients, who find customized services to suite their needs, sustainable solutions and trusted service.</p>
-    <p style="font-family: 'PT Sans Narrow', sans-serif; font-size: 18px;">From problems to solutions, from data to decisions making, Iontas offers a brand and sustainable solutions to suit every clients needs, and a overriding commitment to creating sustainable and efficient solutions to clients in distinctive business environments, industries and sectors.</p>  
-  <p style="font-family: 'PT Sans Narrow', sans-serif; font-size: 18px;">With more diverse technical skills and experience, computational resources , highly specialized algorithms (machine learning and artificial intelligence) and in-house developed softwares, the company  is able to meet clients needs in different sectors of operations.</p>  
-  <hr class="my-3 text-white">
-  <div class="container text-center">      
-  <button class="btn btn-outline-light"><b>DISCOVER OUR SERVICES</b> <i class="fas fa-arrow-right"></i></button>
-</div>
-</div>
-      <div class="col">
-        <!-- Gallery -->
-<div class="row">
-  <div class="d-none d-md-block">
-    <img
-      src="./assets/side1.jpg"
-      class=" w-100 shadow-1-strong my-2  " id="side_image"
-      alt=""
-    />
-  </div>
+    </div>
 
-</div>
-<!-- Gallery -->
-      </div>
+    <li class="list-group-item  bg-black text-white" data-toggle="collapse" href="#collapseFinance" role="button" aria-expanded="false" aria-controls="collapseFinance"><u>Finance</u> <i class="fas fa-plus"></i></li>
+  <!--Data Target-->
+    <div class="collapse" id="collapseFinance">
+    <div class="container text-white">
+      <a class="text-white" href="./research/Finance/Correlation Matrices for Investments.ipynb">Correlation Matrix</a>
     </div>
-  </div>
+    </div>
 
-  <!--Services and Research Discover-->
-  <div class="container text-white">
-    <div class="row">
-      <div class="col" style="font-family: 'Courgette', cursive; font-size: 40px;">
-        <img src="./assets/ourresearch.jpg" class="img-fluid w-100 h-55" id="side_image" alt="..." >
-        Our Research
-        <p style="font-family: 'PT Sans Narrow', sans-serif; font-size: 18px;"><a class="text-white" href="./our_research.html">Access Our Research</a> <i class="fas fa-arrow-right"></i></p>
-      </div>
-      <div class="col" style="font-family: 'Courgette', cursive; font-size: 40px;">
-        <img src="./assets/casestudy.jpg" class="img-fluid" id="side_image" alt="...">
-        Our Case Study Solutions
-        <p style="font-family: 'PT Sans Narrow', sans-serif; font-size: 18px;"><a href="./our_casestudy.html" class="text-white">Explorer Our Case Study Proposition(s) and Solution(s)</a> <i class="fas fa-arrow-right"></i></p>
-      </div>
+    <li class="list-group-item  bg-black text-white" data-toggle="collapse" href="#collapseEconomics" role="button" aria-expanded="false" aria-controls="collapseEconomics"><u>Economics</u> <i class="fas fa-plus"></i></li>
+    <!--Data Target-->
+      <div class="collapse" id="collapseEconomics">
+      <div class="container text-white">
+        <p>No content Yet!</p>
     </div>
-    <div class="row">
-      <div class="col" style="font-family: 'Courgette', cursive; font-size: 40px; ">
-        <img src="./assets/ourservices.jpg" class="img-fluid " id="side_image" alt="..." style="width: 100%; height: 50%;">
-        Our Services
-        <p style="font-family: 'PT Sans Narrow', sans-serif; font-size: 18px;">Discover Our Services <i class="fas fa-arrow-right"></i></p>
       </div>
-      <div class="col" style="font-family: 'Courgette', cursive; font-size: 40px;">
-        <img src="./assets/sponserus.jpg" class="img-fluid" id="side_image" alt="..."  style="width: 100%; height: 70%;">
-        Sponsor Us
-        <p style="font-family: 'PT Sans Narrow', sans-serif; font-size: 18px;"><a class="text-white" href="https://www.patreon.com/iontas_software">Support Us To Help Keep Our Resources Free For Everyone </a><i class="fas fa-arrow-right"></i></p>
-      </div>
+
+      <li class="list-group-item  bg-black text-white" data-toggle="collapse" href="#collapseMarketing" role="button" aria-expanded="false" aria-controls="collapseMarketing"><u>Marketing</u> <i class="fas fa-plus"></i></li>
+      <!--Data Target-->
+        <div class="collapse" id="collapseMarketing">
+        <div class="container text-white">
+            <p>No content yet!</p>
+        </div>
+        </div>
+    
+        <li class="list-group-item bg-black text-white" data-toggle="collapse" href="#collapseMaths" role="button" aria-expanded="false" aria-controls="collapseMaths"><u>Maths</u> <i class="fas fa-plus"></i></li>
+  <!--Data Target-->
+    <div class="collapse" id="collapseMaths">
+    <div class="container text-white">
+        <p>No content yet!</p>
     </div>
-  </div>
+    </div>
+  
+    <li class="list-group-item bg-black text-white" data-toggle="collapse" href="#collapseComputerScience" role="button" aria-expanded="false" aria-controls="collapseComputerScience"><u>Computer Science</u> <i class="fas fa-plus"></i></li>
+  <!--Data Target-->
+    <div class="collapse" id="collapseComputerScience">
+    <div class="container text-white">
+        <p>No content yet!</p>
+    </div>
+    </div>
+  </ul>
+
+
+  
 
   <!--Footer Grid-->
   <div class="bg-black">
@@ -167,7 +142,7 @@
       </div>
       <div class="col" style="font-family: 'Oswald', sans-serif;">
           <ul class="list-unstyled">
-        <li><a href="./about.html" class="text-white">About Us</a></li></li>
+        <li><a href="#!" class="text-white">About Us</a></li></li>
         <li><a href="#!" class="text-white">Access Our Research</a></li>
         <li><a href="#!" class="text-white">Sponsor Us</a></li>
         <li><a href="#!" class="text-white">Contant Us</a></li>
@@ -210,12 +185,6 @@
       </div>
     </div>
   </div>
-  <script>
-    ScrollReveal().reveal('#side_image',{
-      distance:'300%',
-      origin: 'bottom',
-      delay:500
-    });
-  </script>
+
 </body>
 </html>

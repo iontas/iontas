@@ -24,22 +24,39 @@
 </head>
 <body class="bg-black">
     <!-- Logo -->
-<nav class="navbar navbar-expand-sm py-3 navbar-black bg-black">
+    <!-- Logo -->
+    <nav class="navbar navbar-expand-sm py-3 navbar-black bg-black">
     
-    <a class="navbar-brand" href="./index.html">
-      <img src="./assets/logo.png" width="250" height="80" class="d-inline-block align-top" alt="">
-    </a>
-
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-        <ul class="navbar-nav ms-auto my-2 my-lg-0 " style="font-family: 'Oswald', sans-serif;">
-            <li class="nav-item"><a class="nav-link text-white" href="#about">ABOUT US</a></li>
-            <li class="nav-item"><a class="nav-link text-white" href="#services">SERVICES</a></li>
-            <li class="nav-item"><a class="nav-link text-white" href="#portfolio">OUR WORK</a></li>
-            <li class="nav-item"><a class="nav-link text-white" href="#contact">CONTACT US</a></li>
-        </ul>
-    </div>
-  </nav>
+      <a class="navbar-brand" href="./index.html">
+        <img src="./assets/logo.png" width="250" height="80" class="d-inline-block align-top" alt="">
+      </a>
+  
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ms-auto my-2 my-lg-0 " style="font-family: 'Oswald', sans-serif;">
+              <li class="nav-item"><a class="nav-link text-white" href="./about.html">ABOUT US</a></li>
+              <div class="dropdown">
+              <li class="nav-item"><a class="nav-link text-white" href="#">SERVICES</a></li>
+              <div class="dropdown-content">
+                <a href="#">Consulting</a>
+                <hr class="my-0">
+                <a href="./our_research.html">Research</a>
+                <hr class="my-0">
+                <a href="#">Marketing</a>
+                <hr class="my-0">
+                <a href="#">Graphic Design</a>
+                <hr class="my-0">
+                <a href="#">Software Engineering</a>
+                <hr class="my-0">
+                <a href="#">Architectural Design</a>
+                <hr class="my-0">
+                <a href="#">Personal/Work Assistant</a>
+              </div>
+              </div>
+              <li class="nav-item"><a class="nav-link text-white" href="#portfolio">OUR WORK</a></li>
+              <li class="nav-item"><a class="nav-link text-white" href="#contact">CONTACT US</a></li>
+          </ul>
+      </div>
+    </nav>
   <hr class="my-0 text-white">
 
   <!--Hero for Research Pipeline-->
@@ -163,7 +180,7 @@
             </a>
           </div>
       </div>
-      <div class="col-sm" style="font-family: 'Oswald', sans-serif;">
+      <div class="col-sm" id="contact" style="font-family: 'Oswald', sans-serif;">
         <ul class="mb-0">SCHEDULE FOR A MEETING:</ul>
         <ul class="mb-0">+27 65 821 9715</ul>
         <ul>+27 66 162 9172</ul>
